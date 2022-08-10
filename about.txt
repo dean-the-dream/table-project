@@ -1,0 +1,8 @@
+The purpose of this project is to recreate the table in the image 12302.gif for the purpose of praciticing HTML CSS and Java Script
+1. Create a plain html version of the image without any CSS Formating
+  - Create the header
+  - Create the table and all of the elements in it
+  - Name and ID the cell contents according to how you want them to perform
+2. Add CSS formatting to make the table look exactly like it does in the picture
+3. Make the table interactive by including Javascript that allows users to input their own numbers and watch the table change dynamically.
+  -set up Javascript to get input from html

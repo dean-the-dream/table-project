@@ -1,0 +1,41 @@
+/*please see table_project.css for the definitions of the the names and ids*/
+table {
+  font-size: 14px;
+  background-color: rgb(202, 222, 225); 
+  width: 50%;
+  margin: auto;
+  text-align: right  
+}
+#header1 {
+  text-align: left
+}
+#bold-start {
+    font-size: 20px;
+  }
+#black-row {
+ color: white;
+ background-color: black;
+ font-weight: bold;
+}
+#header2 {
+  background-color: rgb(226, 238, 237);
+  text-align: left;
+  text-indent: 0px
+}
+[name = col1] {
+  text-align: left
+}
+#ending1 {
+  background-color: rgb(58, 136,163);
+  color: white;
+  font-weight: bold
+}
+#ending2 {
+  background-color: white;
+}
+
+input {
+  background-color: rgb(202, 222, 225);
+  width: 50%;
+  text-align: right
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Table</title>
+  <link href="./main.css" rel="stylesheet">
+</head>
+<!--This markup recreates table found at this location C:\Users\lawre\Coding\projects\table_project.
+name=col1 idenfies all cells in the first coulmn
+id=black=row identfies the row with the black background
+id=header1 identifies the row at the top of the table that contains the paragraph
+id=header2 identifies all rows with the lighter background that span all 5 columns
+id=bold-start is for the big letters in the very first row
+id=ending1 identifies the row with the dark green background
+id=ending2 identifies the last row with the white background
+id=ending3 identifies the verylast row
+-->
+<body>
+  <div>
+    <h3></h3>
+    
+    <table>
+      <th name="col1">
+        <tr id="header1"> 
+          <td colspan="5"><p><strong id="bold-start">Lose Data, Lose Customers</strong> The Ponemon Institute surveyed 14 different companies. The average data loss was 100,000 records. The most costly aspect by far was the loss of existing customers. Here is the breakdown</p></td>
+        </tr>
+        <tr id="black-row">
+          <th name="col1">ACTIVITY</th>
+          <th>DIRECT COSTS</th>
+          <th>INDIRECT COSTS</th>
+          <th>LOST CUSTOMER COSTS</th>
+          <th>TOTAL COSTS</th>
+        </tr>
+      </thead>
+      <tr id="header2"> 
+        <th name="col1" colspan="5"><b>Detection & Escalation</b></th>
+      </tr>
+      <tr>
+        <th name="col1">-Internal investigation</th>
+        <td>$19,000</td>
+        <td>$488,000</td>
+        <td>N/A</td>
+        <td>$507,000</td>
+      </tr>
+      <tr>
+        <th name="col1">-Legal consulting</th>
+        <td>463,000</td>
+        <td>51,000</td>
+        <td>N/A</td>
+        <td>$507,000</td>
+      </tr>
+      <tr id="header2"> 
+        <th name="col1" colspan="5"><b>Notification</b></th>
+      </tr>
+      <tr>
+        <th name="col1">-Letters</th>
+        <td>547,000</td>
+        <td>193,000</td>
+        <td>N/A</td>
+        <td>740,000</td>
+      </tr>
+      <tr>
+        <th name="col1">-E-mails</th>
+        <td>5,000</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>5,000</td>
+      </tr>
+      <tr>
+        <th name="col1">-Telephone</th>
+        <td>913,000</td>
+        <td>105,000</td>
+        <td>N/A</td>
+        <td>1,018,000</td>
+      </tr>
+      <tr>
+        <th name="col1">-Published media</th>
+        <td>48,000</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>48,000</td>
+      </tr>
+      <tr>
+        <th name="col1">-Web site</th>
+        <td>3,000</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>3,000</td>
+      </tr>
+      <tr id="header2"> 
+        <th name="col1" colspan="5"><b>Ex-Post Response</b></th>
+      </tr>
+      <tr>
+        <th name="col1">-Mail</th>
+        <td>4,000</td>
+        <td>3,000</td>
+        <td>N/A</td>
+        <td>7,000</td>
+      </tr>
+      <tr>
+        <th name="col1">-E-mails</th>
+        <td>1,000</td>
+        <td>1,000</td>
+        <td>N/A</td>
+        <td>2,000</td>
+      </tr>
+      <tr>
+        <th name="col1">-Internal call center</th>
+        <td>287,000</td>
+        <td>470,000</td>
+        <td>N/A</td>
+        <td>766,000</td>
+      </tr>
+      <tr>
+        <th name="col1">-Outsourced call center</th>
+        <td>27,000</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>27,000</td>
+      </tr>
+      <tr>
+        <th name="col1">-Public or investor relations</th>
+        <td>289,000</td>
+        <td>14,000</td>
+        <td>N/A</td>
+        <td>303,000</td>
+      </tr>
+      <tr>
+        <th name="col1">-Legal defense services</th>
+        <td>1,288,000</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>1,288,000</td>
+      </tr>
+      <tr>
+        <th name="col1">-Free or discounted services</th>
+        <td>810,000</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>810,000</td>
+      </tr>
+      <tr>
+        <th name="col1">-Criminal investigations</th>
+        <td>286,000</td>
+        <td>13,000</td>
+        <td>N/A</td>
+        <td>299,000</td>
+      </tr>
+      <tr id="header2"> 
+        <th name="col1" colspan="5"><b>Lost Business</b></th>
+      </tr>
+      <tr>
+        <th name="col1">-Lost existing customers</th>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>6,728,000</td>
+        <td>6,728,000</td>
+      </tr>
+      <tr>
+        <th name="col1">-Lost new customers</th>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>73,000</td>
+        <td>73,000</td>
+      </tr>
+      <tr id="ending1">
+        <th name="col1">AVERAGE COST PER COMPANY</th>
+        <td>4,990,000</td>
+        <td>1,347,000</td>
+        <td>7,458,000</td>
+        <td>13,795,000</td>
+      </tr>
+      <tr id="ending2">
+        <th name="col1">PER LOST RECORD COST</th>
+        <td>$50</td>
+        <td>$14</td>
+        <td>$75</td>
+        <td>$178</td>
+      </tr>
+      <tfoot>
+        <tr id="ending3"> 
+          <td colspan="5">SOURCE:PGP CORP.</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</body>
+</html>
