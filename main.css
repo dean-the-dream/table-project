@@ -5,7 +5,7 @@ table {
   margin: auto;
   text-align: right  
 }
-#header1 {
+table thead tr {
   text-align: left
 }
 #bold-start {
