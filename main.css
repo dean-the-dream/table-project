@@ -16,7 +16,7 @@ table {
  background-color: black;
  font-weight: bold;
 }
-#header2 {
+.header2 {
   background-color: rgb(226, 238, 237);
   text-align: left;
   text-indent: 0px
