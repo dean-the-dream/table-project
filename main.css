@@ -11,7 +11,7 @@ table thead tr {
 td p strong {
     font-size: 20px;
   }
-#black-row {
+thead tr th{
  color: white;
  background-color: black;
  font-weight: bold;
