@@ -8,7 +8,7 @@ table {
 table thead tr {
   text-align: left
 }
-#bold-start {
+td p strong {
     font-size: 20px;
   }
 #black-row {
