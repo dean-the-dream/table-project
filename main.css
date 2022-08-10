@@ -21,7 +21,7 @@ table {
   text-align: left;
   text-indent: 0px
 }
-[name = col1] {
+.row-header {
   text-align: left
 }
 #ending1 {
