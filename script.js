@@ -1,13 +1,13 @@
 function createStanNum(number1, method1) { //function will take a number stored as a string and remove commas from it, or it will add commas to a number without them
-  var origNumString = number1;
-  var origNum = [];
-  var charCount = 0;
-  var stanNum = [];
-  var sectLength = 0;
-  var stanNumString = "";
+  let origNumString = number1;
+  let origNum = [];
+  let charCount = 0;
+  let stanNum = [];
+  let sectLength = 0;
+  let stanNumString = "";
 
 
-  for (var i = 0; i < origNumString.length; i++) { //Break up the user input into an array
+  for (let i = 0; i < origNumString.length; i++) { //Break up the user input into an array
     origNum[i] = origNumString.charAt(i);
   } 
   stanNum = origNum;  //assign the original array to an array that will be used to created a number formatted to a standard American number
@@ -46,11 +46,11 @@ function createStanNum(number1, method1) { //function will take a number stored 
 }
 
 
-var dataCells = document.getElementsByTagName("td"); //creates a collection of all the td elements
-var input_fields = []; //initializes an array to store html input nodes
-var table_strings = []; //initalizes an array to store the text nodes already on the table
-var counter = 0; //variable to increment the index during loops (local variable i doesn't work inside certain funcions)
-var input_value = []; //initalizes an array to store user input
+let dataCells = document.getElementsByTagName("td"); //creates a collection of all the td elements
+let input_fields = []; //initializes an array to store html input nodes
+let table_strings = []; //initalizes an array to store the text nodes already on the table
+let counter = 0; //variable to increment the index during loops (local variable i doesn't work inside certain funcions)
+let input_value = []; //initalizes an array to store user input
 
 for (i = 0; i <= dataCells.length; i++) {   
   input_fields.push(document.createElement("input")); // adds input nodes to input_fields array
