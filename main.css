@@ -14,7 +14,7 @@ td p strong {
     font-size: 20px;
   }
 
-thead tr th{
+thead tr th {
  color: white;
  background-color: black;
  font-weight: bold;
@@ -30,13 +30,13 @@ th {
   text-align: left;
 }
 
-#ending1 {
+tr:nth-child(22) {
   background-color: rgb(58, 136,163);
   color: white;
   font-weight: bold;
 }
 
-#ending2 {
+tr:nth-child(23) {
   background-color: white;
 }
 
